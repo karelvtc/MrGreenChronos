@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MrGreenChronos.MainPage">
+
+
+    <StackLayout>
+
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Countdown [MM:SS]" HorizontalTextAlignment="Center" TextColor="White" FontSize="12"/>
+                    <Label Text="00:00" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Gradient %/s" HorizontalTextAlignment="Center" TextColor="White" FontSize="12"/>
+                    <Label Text="00" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+                </StackLayout>
+
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Volume" HorizontalTextAlignment="Center" TextColor="White" FontSize="12"/>
+                <Label Text="00" HorizontalTextAlignment="Center" TextColor="White" FontSize="80"/>
+            </StackLayout>
+        </Frame>
+
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <StackLayout Orientation="Horizontal">
+                <Button Text="||"></Button>
+                <Button Text="-"></Button>
+                <Button Text="O"></Button>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>
